@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lab --format=commas
+ls -lamp
