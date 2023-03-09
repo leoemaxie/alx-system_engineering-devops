@@ -1,0 +1,4 @@
+#!/bin/bash
+if [ whoami = "guilaume" ]; then
+  chown betty hello
+fi
