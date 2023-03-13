@@ -11,6 +11,8 @@ redirections between the standard I/O, files and commands. Some of the commands 
 * `find` to search for files in a directory hierarchy
 Some of the redirection symbols used are: `>`, `>>`, `2>`, `&>`, `&>>`, `<<`, `<<`.
 
+As usual files prefixed with units and tens e.g `2-hellofile` represent the beginner tasks. Prefixed in the hundreds are the advanced tasks e.g `104-gifs`.                                     
+
 Part of ALX's Project.
  
 ## Link
