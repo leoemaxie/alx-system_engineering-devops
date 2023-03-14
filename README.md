@@ -8,4 +8,6 @@ A series of tasks and exercises aimed at understanding the commandline.
 
 * Shell Permissions: Covers tasks aimed at changing file permissions using `chmod`, file ownerships using `chown`, group ownerships using `chgrp` and their options as well as using various commands to determine the users and groups on the system. This is housed in [0x01-shell_permissions](/0x01-shell_permissions) directory. 
 
-* Shell Redirections & Filters: Contains tasks aimed at understanding shellredirections between the standard I/O, files and commands. This is housed in [0x02-shell_redirections](/0x02-shell_redirections) directory.
+* Shell Redirections & Filters: Contains tasks aimed at understanding shell redirections between the standard I/O, files and commands. This is housed in [0x02-shell_redirections](/0x02-shell_redirections) directory.
+
+* Shell, Init files, Variables and Expansions: Contains tasks aimed at understanding the shell environment, configurations and essential files. This is housed in [0x03-shell_variables_expansions](/0x03-shell_variables_expansions) directory.
