@@ -19,4 +19,4 @@ while [ $x -le 20 ]; do
 			echo $x
 	esac
 	x=$((x + 1))
-done	
+done
