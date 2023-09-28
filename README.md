@@ -11,3 +11,5 @@ A series of tasks and exercises aimed at understanding the commandline.
 * Shell Redirections & Filters: Contains tasks aimed at understanding shell redirections between the standard I/O, files and commands. This is housed in [0x02-shell_redirections](/0x02-shell_redirections) directory.
 
 * Shell, Init files, Variables and Expansions: Contains tasks aimed at understanding the shell environment, configurations and essential files. This is housed in [0x03-shell_variables_expansions](/0x03-shell_variables_expansions) directory.
+
+* Loops, Conditions and Parsing: Introduction to loops and conditionals in bash. This is housed in [0x04-loops_conditions_and_parsing](/0x04-loops_conditions_and_parsing) directory.
