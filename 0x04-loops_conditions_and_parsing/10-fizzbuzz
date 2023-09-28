@@ -5,8 +5,7 @@
 # Displays Buzz when the number is a multiple of 5
 # Otherwise, displays the numbernIn a list format
 x=1
-while [[ $x -le 100 ]]
-do
+while [[ $x -le 100 ]]; do
 	if [[ $((x % 3)) -eq 0 && $((x % 5)) -eq 0 ]]; then
 		echo "FizzBuzz"
 	elif [[ $((x % 3)) -eq 0 ]]; then
