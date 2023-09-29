@@ -2,6 +2,6 @@
 # Prints "Best School" 10 times using a while loop
 x=0
 while [[ $x -lt 10 ]]; do
-	echo "Best school"
-	x=$((x + 1))
+	 echo "Best school"
+	 x=$((x + 1))
 done
