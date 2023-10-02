@@ -16,12 +16,12 @@ case $1 in
 		start_process
 		;;
 	'stop')
-		echo "manage_my_process stopped"
 		stop_process
+	echo "manage_my_process stopped"
 		;;
 	'restart')
-		echo "manage_my_process restarted"
 		stop_process
+	echo "manage_my_process restarted"
 		start_process
 		;;
 	*)
