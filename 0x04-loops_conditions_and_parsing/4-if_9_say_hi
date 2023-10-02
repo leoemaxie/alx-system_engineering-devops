@@ -3,9 +3,8 @@
 # Best School and then Hi on a new line.
 x=1
 while [ $x -le 10 ]; do
-	if [ $x -ne 9 ]; then
-		echo "Best school"
-	else
+	echo "Best School"
+	if [ $x -eq 9 ]; then
 		echo "Hi"
 	fi
 	x=$((x + 1))

@@ -4,7 +4,6 @@
 #    username 
 #    user id 
 #    Home directory path for the user
-x=1
 while read -r line; do
 	echo $line | cut -d ":" -f 1,3,6
 done < /etc/passwd

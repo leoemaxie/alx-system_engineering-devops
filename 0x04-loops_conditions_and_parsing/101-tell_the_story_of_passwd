@@ -6,10 +6,9 @@ IFS=":"
 
 while read -r u_name passwd uid gid u_info home shell; do
 	echo "
-	The user $u_name is part of the $gid gang, lives in $home and
-	rides $shell.
-	$uid's place is protected by the passcode $passwd, more info about the
-	user here: $u_info
+	The user $u_name is part of the $gid gang, lives in $home and\nrides $shell.\n
+	$uid's place is protected by the passcode $passwd, more info about the\n
+	user here: $u_info\n
 	"
 done < /etc/passwd
 
