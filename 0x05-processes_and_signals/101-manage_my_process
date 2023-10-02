@@ -6,7 +6,7 @@ stop_process() {
 }
 
 start_process() {
-	./manage_my_process
+	./manage_my_process >> /tmp/my_process
 	pgrep manage_my_process > /var/run/my_process.pid
 }
 

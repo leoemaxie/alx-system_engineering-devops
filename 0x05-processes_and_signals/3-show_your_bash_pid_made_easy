@@ -1,14 +1,4 @@
 #!/usr/bin/env bash
 # Displays lines containing the bash word, getting the PID of Bash process.
 # shellcheck disable=SC2009
-
-for pid_dir in /proc/[0-9]*; do
-  pid=$(basename "$pid_dir")
-
-  if grep -q "bash" "$pid_dir/cmdline" 2>/dev/null; then
-    process_name=$(tr '\0' ' ' < "$pid_dir/cmdline")
-
-    echo "$pid $process_name"
-  fi
-done
-
+pgrep -l 'bash'
