@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Bash (init) script that manages {manage_my_process}. 
 stop_process() {
-	rm -f my_process.pid
-	pkill -f /var/run/my_process.pid
+	rm -f /var/run/my_process.pid
+	pkill -f manage_my_process
 }
 
 start_process() {
