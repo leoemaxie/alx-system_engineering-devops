@@ -2,7 +2,7 @@
 # Bash (init) script that manages {manage_my_process}. 
 stop_process() {
 	rm -f /var/run/my_process.pid
-	pkill -f manage_my_process
+	pkill -f manage_my_process > /dev/null 2>&1
 }
 
 start_process() {
@@ -16,12 +16,12 @@ case $1 in
 		start_process
 		;;
 	'stop')
-		stop_process
 		echo "manage_my_process stopped"
+		stop_process
 		;;
 	'restart')
-		stop_process
 		echo "manage_my_process restarted"
+		stop_process
 		start_process
 		;;
 	*)

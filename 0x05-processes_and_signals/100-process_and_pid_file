@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Infinite process.
 
-# Function to handle SIGQUIT signal
-handle_sigquit() {
+# Function to handle SIGTERM and SIGQUIT signals
+cleanup() {
   rm -f /var/run/myscript.pid
   exit 0
 }
@@ -12,13 +12,12 @@ handle_sigint() {
   echo "Y U no love me?!"
 }
 
-# Function to handle SIGTERM signal
 handle_sigterm() {
   echo "I hate the kill command"
   cleanup
 }
 # Register the function to be called on SIGTERM and SIGQUIT and SIGINT
-trap 'handle_sigquit' SIGQUIT
+trap 'cleanup' SIGQUIT
 trap 'handle_sigterm' SIGTERM
 trap 'handle_sigint' SIGINT
 
