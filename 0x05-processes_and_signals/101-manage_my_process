@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# Indefinitely writes I am alive! to the file /tmp/my_process.
+stop_process() {
+	pkill -f manage_my_process
+	rm -f /var/run/my_process.pid
+}
+
+start_process() {
+	./manage_my_process
+	pgrep manage_my_process > /var/run/my_process.pid
+}
+
+case $1 in
+	'start')
+		echo "manage_my_process started"
+		start_process
+		;;
+	'stop')
+		echo "manage_my_process stopped"
+		stop_process
+		;;
+	'restart')
+		echo "manage_my_process restarted"
+		stop_process
+		start_process
+		;;
+	*)
+		echo "Usage: manage_my_process {start|stop|restart}"
+esac
