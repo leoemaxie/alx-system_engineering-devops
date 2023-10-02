@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Infinitee process
+while [[ 10 -gt 9 ]]; do
+	echo "To infinity and beyond"
+	sleep 2
+done

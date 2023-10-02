@@ -1,2 +1,0 @@
-#!/bin/bash
-cut -f1 webserver.log | tr '\t' '\n' | sort | uniq -c | sort -nr | head -n 11
