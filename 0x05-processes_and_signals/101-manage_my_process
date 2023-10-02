@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
-# Indefinitely writes I am alive! to the file /tmp/my_process.
+# Bash (init) script that manages {manage_my_process}. 
 stop_process() {
-	pkill -f manage_my_process
-	rm -f /var/run/my_process.pid
+	rm -f my_process.pid
+	pkill -f /var/run/my_process.pid
 }
 
 start_process() {
-	./manage_my_process >> /tmp/my_process
-	pgrep manage_my_process > /var/run/my_process.pid
+	./manage_my_process &
+	pgrep -fo manage_my_process > /var/run/my_process.pid
 }
 
 case $1 in

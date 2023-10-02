@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Infinite process.
 
-# Function to handle SIGTERM and SIGQUIT signals
-cleanup() {
+# Function to handle SIGQUIT signal
+handle_sigquit() {
   rm -f /var/run/myscript.pid
   exit 0
 }
@@ -12,21 +12,19 @@ handle_sigint() {
   echo "Y U no love me?!"
 }
 
+# Function to handle SIGTERM signal
 handle_sigterm() {
   echo "I hate the kill command"
   cleanup
 }
-# Register the cleanup function to be called on SIGTERM and SIGQUIT
-trap 'cleanup' SIGQUIT
+# Register the function to be called on SIGTERM and SIGQUIT and SIGINT
+trap 'handle_sigquit' SIGQUIT
 trap 'handle_sigterm' SIGTERM
-
-# Register the handle_sigint function to be called on SIGINT
 trap 'handle_sigint' SIGINT
 
 # Get the PID of this script
 echo $$ > /var/run/myscript.pid
 
-# Display "To infinity and beyond" indefinitely
 while true; do
   echo "To infinity and beyond"
 done
