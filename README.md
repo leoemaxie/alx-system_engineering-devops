@@ -15,3 +15,5 @@ A series of tasks and exercises aimed at understanding the commandline.
 * Loops, Conditions and Parsing: Introduction to loops and conditionals in bash. This is housed in [0x04-loops_conditions_and_parsing](/0x04-loops_conditions_and_parsing) directory.
 
 * Processes and Signals: Processes and signals in bash. This is housed in [0x05-processes_and_signals](/0x05-processes_and_signals) directory.
+
+* Regular Expression: Regular expression and pattern matching in ruby. This is housed in [0x06-regular_expressions](/0x06-regular_expressions) directory.
