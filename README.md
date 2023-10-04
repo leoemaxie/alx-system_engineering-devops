@@ -17,3 +17,7 @@ A series of tasks and exercises aimed at understanding the commandline.
 * Processes and Signals: Processes and signals in bash. This is housed in [0x05-processes_and_signals](/0x05-processes_and_signals) directory.
 
 * Regular Expression: Regular expression and pattern matching in ruby. This is housed in [0x06-regular_expressions](/0x06-regular_expressions) directory.
+
+* Networking Basics #0: Networking Part 1. A theoretical introduction to Networking. This is housed in [0x07-networking_basics](/0x07-networking_basics) directory.
+
+* Networking Basics #1: Networking Part 2. An hands-on practical introduction to Networking using commandline tools and programs in Linux. This is housed in [0x08-networking_basics_2](/0x08-networking_basics_2) directory.
