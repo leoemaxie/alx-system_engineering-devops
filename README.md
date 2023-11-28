@@ -25,3 +25,5 @@ A series of tasks and exercises aimed at understanding the commandline.
 * SSH: Authentication and remote login into remote servers and computers using Secure Shell (SSH). This is housed in [0x0B-ssh](/0x0B-ssh) directory.
 
 * Web Server: Managing web servers on Linux. This is housed in [0x0C-web_server](/0x0C-web_server) directory.
+
+* Web Stack Debugging: Debugging Webservers. This is housed in [0x0D-web_stack_debugging_0](/0x0D-web_stack_debugging_0) directory.
