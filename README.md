@@ -23,3 +23,5 @@ A series of tasks and exercises aimed at understanding the commandline.
 * Networking Basics #1: Networking Part 2. An hands-on practical introduction to Networking using commandline tools and programs in Linux. This is housed in [0x08-networking_basics_2](/0x08-networking_basics_2) directory.
 
 * SSH: Authentication and remote login into remote servers and computers using Secure Shell (SSH). This is housed in [0x0B-ssh](/0x0B-ssh) directory.
+
+* Web Server: Managing web servers on Linux. This is housed in [0x0C-web_server](/0x0C-web_server) directory.
