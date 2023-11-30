@@ -28,5 +28,7 @@ A series of tasks and exercises aimed at understanding the commandline.
 
 * Web Server: Managing web servers on Linux. This is housed in [0x0C-web_server](/0x0C-web_server) directory.
 
-* Web Stack Debugging: Debugging Webservers. This is housed in [0x0D-web_stack_debugging_0](/0x0D-web_stack_debugging_0) directory.
+* Web Stack Debugging #0: Debugging Webservers. This is housed in [0x0D-web_stack_debugging_0](/0x0D-web_stack_debugging_0) directory.
+
+* Python - Network #0: Networking in Linux using bash and python. This is housed in [0x10-python-network_0](/0x10-python-network_0) directory.
 
