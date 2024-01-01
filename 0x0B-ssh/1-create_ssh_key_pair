@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# Coonects to my remote computer
-ssh-keygen -f school -b 4096 -N betty

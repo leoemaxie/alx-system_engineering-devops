@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# Coonects to my remote computer
-ssh -i ~/.ssh/school ubuntu@18.234.130.71 
