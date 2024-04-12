@@ -24,3 +24,4 @@ def top_ten(subreddit):
             title = dat.get("title")
             print(title)
     else:
+        print(None)
